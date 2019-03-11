@@ -14,7 +14,7 @@ function logWhisper(string) {
   console.log(string.toLowerCase())
 }
 
-function sayHiToGrandma(string) 
+function sayHiToGrandma(string) { // we need an opening brakcte
 if (string.toLowerCase() === string) {
     return "I can't hear you!"
   }
@@ -26,3 +26,5 @@ if (string.toLowerCase() === string) {
   if (string === "I love you, Grandma.") {
     return "I love you, too."
   }
+
+    } // and a closing one
